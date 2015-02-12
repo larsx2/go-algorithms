@@ -10,7 +10,7 @@ Searching Algorithms:
 - [ ] Dijkstra 
 
 Sorting Algorithms:
-- [ ] Bubble Sort
+- [x] Bubble Sort
 - [ ] Selection Sort
 - [ ] Insertion Sort
 - [ ] Shell Sort
