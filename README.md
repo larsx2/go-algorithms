@@ -11,7 +11,7 @@ Searching Algorithms:
 
 Sorting Algorithms:
 - [x] Bubble Sort
-- [ ] Selection Sort
+- [x] Selection Sort
 - [ ] Insertion Sort
 - [ ] Shell Sort
 - [ ] Merge Sort
