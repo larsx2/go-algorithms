@@ -20,7 +20,7 @@ func BubbleSort(items []int) []int {
 	return items
 }
 
-// cleaner version
+// nested fors alternative
 func BubbleSort2(items []int) []int {
 	for i := 0; i < len(items)-1; i++ {
 		for j := 0; j < len(items)-1; j++ {
