@@ -5,6 +5,7 @@ This is a repository of some basic algorithms implemented in the Go programming 
 Searching Algorithms:
 - [x] Linear Search
 - [x] Binary Search
+- [x] Rabin-Karp String Search
 - [ ] Depth First Search (DFS)
 - [ ] Breadth First Search (BFS)
 - [ ] Dijkstra 
