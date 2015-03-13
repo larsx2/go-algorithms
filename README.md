@@ -14,6 +14,6 @@ Sorting Algorithms:
 - [x] Bubble Sort
 - [x] Selection Sort
 - [x] Insertion Sort
-- [ ] Shell Sort
+- [x] Shell Sort
 - [x] Merge Sort
 - [ ] Quick Sort
