@@ -1,26 +1,23 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
 
 func BinarySearch(items []int, target int) int {
 	first, last := 0, len(items)-1
 
 	for first <= last {
-		middle := (first + last) / 2
-		currValue := items[middle]
+		mid := (first + last) / 2
+		val := items[mid]
 
 		switch {
-		case target == currValue:
-			return middle
+		case target == val:
+			return mid
 
-		case target < currValue:
-			last = middle - 1
+		case target < val:
+			last = mid - 1
 
-		case target > currValue:
-			first = middle + 1
+		case target > val:
+			first = mid + 1
 		}
 	}
 
@@ -31,13 +28,13 @@ func main() {
 	array := []int{1, 3, 5, 7, 12, 15, 24, 50}
 	target := 5
 
-	fmt.Println("Array is", array, "target is", target)
+	fmt.Println(">> Looking for", target, "in", array)
 	result := BinarySearch(array, target)
 
 	if result == -1 {
-		fmt.Println("Not Found")
-		os.Exit(1)
+		fmt.Println("[-] Not Found")
+	} else {
+		fmt.Println("[+] Found at index:", result)
 	}
 
-	fmt.Println("Found at index:", result)
 }
