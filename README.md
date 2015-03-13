@@ -15,5 +15,5 @@ Sorting Algorithms:
 - [x] Selection Sort
 - [x] Insertion Sort
 - [ ] Shell Sort
-- [ ] Merge Sort
+- [x] Merge Sort
 - [ ] Quick Sort
